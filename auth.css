@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 500px;
+    padding: 20px;
+    border: 5px ridge #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    font-family: system-ui, -apple-system, sans-serif;
+    font-weight: bold;
+}
+
+#username {
+    width: 450px; /* Ta largeur initiale */
+    padding: 12px 20px;
+    margin: auto;
+    margin-bottom: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+#password {
+    width: 410px; /* Ajusté légèrement pour laisser la place exacte au bouton orange */
+    padding: 12px 20px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+#togglePassword {
+    width: fit-content;
+    height: 40px;
+    text-align: center;
+    background-color: #ff9500;
+    color: black;
+    border-radius: 9px;
+    cursor: pointer;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.password-container {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+#login {
+    width: 100%;
+    background-color: #3b80ca;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 6px;
+}

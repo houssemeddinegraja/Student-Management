@@ -1,0 +1,55 @@
+section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.student-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+}
+
+.student-image img {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    border: 3px solid #eee;
+}
+
+.student-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.student-info p {
+    font-size: 18px;
+    color: #444;
+    margin: 0;
+    padding: 10px;
+    background-color: #f4f6f9;
+    border-radius: 6px;
+    border-left: 5px solid #0056b3;
+}
+
+.student-info p strong {
+    color: #222;
+    display: inline-block;
+    min-width: 170px;
+}
